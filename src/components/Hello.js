@@ -6,7 +6,7 @@ import nftSix from '../assets/nft6.png';
 
 export default function Hello() {
 	return (
-		<div className="helloSection">
+		<div className="helloSection" id="team">
 			<h2>
 				Hello! We are The
 				<br /> Latchkey Kids Team

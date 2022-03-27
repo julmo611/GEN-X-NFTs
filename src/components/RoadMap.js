@@ -8,7 +8,7 @@ import pacMan from '../assets/pac-man-dots.png';
 
 export default function RoadMap() {
 	return (
-		<div className="roadMap">
+		<div className="roadMap" id="roadmap">
 			<div className="boxTitle">
 				<h2>The Roadmap</h2>
 				<p>

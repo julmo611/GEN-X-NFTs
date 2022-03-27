@@ -7,14 +7,14 @@ import stereo from '../assets/90sStereo.png';
 
 export default function Header() {
 	return (
-		<div className="header">
+		<div className="header" id="start">
 			<img src={headerImg} alt="Gen X NFT COllection" className="headerImg" />
 			<div className="headerContainer">
 				<div className="imgBox">
 					<img src={cassette} alt="Cassette" className="cassette" />
 					<img src={nftTwo} alt="NFT" />
 				</div>
-				<div className="textCont">
+				<div className="textCont" id="story">
 					<p>
 						Listen up. We can do this the easy way or the hard way. NFTs are
 						here to stay. Web3 is a real thing. The Metaverse is coming. And it
