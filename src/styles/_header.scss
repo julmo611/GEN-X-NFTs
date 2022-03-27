@@ -1,0 +1,41 @@
+.header {
+	margin: 230px auto 413px;
+	width: 100%;
+	text-align: center;
+	.headerImg {
+		width: 100%;
+		max-width: 1223px;
+		margin: 0 auto;
+	}
+	.headerContainer {
+		@include centerBox();
+		margin-top: 294px;
+		.imgBox {
+			width: 100%;
+			max-width: 288px;
+			@include centerBox();
+			flex-direction: column;
+			.cassette {
+				width: 100%;
+				max-width: 160px;
+				height: auto;
+				margin-bottom: 37px;
+			}
+			.stereo {
+				margin-top: 37px;
+				width: 100%;
+				max-width: 240px;
+				height: auto;
+			}
+		}
+		.textCont {
+			max-width: 590px;
+			width: 100%;
+			padding: 5px;
+			margin: 0 15px 0;
+			p {
+				margin-bottom: 34px;
+			}
+		}
+	}
+}

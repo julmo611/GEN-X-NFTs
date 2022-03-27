@@ -1,0 +1,12 @@
+.wmSpecial {
+	max-width: 1098px;
+	.wmHeader {
+		@include centerBox(space-between, center);
+	}
+	.wmSpecialCont {
+		max-width: 1098px;
+		p {
+			margin-bottom: 42px;
+		}
+	}
+}

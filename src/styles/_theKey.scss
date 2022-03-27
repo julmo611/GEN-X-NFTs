@@ -1,0 +1,23 @@
+.keySection {
+	margin: 200px auto 300px;
+	width: 100%;
+	max-width: 1200px;
+	text-align: right;
+	position: relative;
+	h2 {
+		padding-top: 25px;
+	}
+	p {
+		max-width: 976px;
+		margin: 20px 0 20px auto;
+	}
+	.imgColumn {
+		max-width: 220px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		img {
+			margin-bottom: 20px;
+		}
+	}
+}

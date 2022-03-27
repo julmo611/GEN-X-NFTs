@@ -1,0 +1,149 @@
+.roadMap {
+	margin: 207px auto 0;
+	width: 100%;
+	max-width: 1200px;
+
+	.boxTitle {
+		margin-bottom: 200px;
+		text-align: right;
+
+		padding: 67px 40px;
+		background: linear-gradient(
+			266.69deg,
+			rgba(255, 255, 255, 0.4) 2.73%,
+			rgba(255, 255, 255, 0) 97.27%
+		);
+		box-shadow: 0px 4px 24px -1px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(40px);
+		/* Note: backdrop-filter has minimal browser support */
+
+		border-radius: 40px;
+		p {
+			margin-top: 54px;
+		}
+	}
+	.roadMapContainer {
+		width: 100%;
+		.divOne {
+			@include centerBox(space-between, flex-start);
+			h2 {
+				width: 100%;
+			}
+			.textCont {
+				max-width: 351px;
+				width: 100%;
+				padding-top: 40px;
+			}
+			.imgCont {
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+		}
+		.divTwo {
+			@include centerBox(space-between, flex-start);
+			h2 {
+				width: 100%;
+				text-align: right;
+			}
+			.imgCont {
+				img {
+					width: 100%;
+					height: auto;
+				}
+			}
+			.textCont {
+				padding-top: 30px;
+				max-width: 864px;
+				width: 100%;
+				text-align: right;
+			}
+		}
+		.divThree {
+			@include centerBox(space-between, flex-start);
+			h2 {
+				width: 100%;
+			}
+			.textCont {
+				max-width: 794px;
+				width: 100%;
+			}
+			.imgCont {
+				padding-top: 50px;
+				img {
+					width: 100%;
+					max-width: 400px;
+					height: auto;
+				}
+			}
+		}
+		.divFour {
+			@include centerBox(space-between, flex-start);
+			h2 {
+				width: 100%;
+				text-align: right;
+			}
+			.imgCont {
+				padding-top: 70px;
+				img {
+					width: 100%;
+					max-width: 364px;
+					height: auto;
+				}
+			}
+			.textCont {
+				max-width: 794px;
+				width: 100%;
+				text-align: right;
+			}
+		}
+		.divFive {
+			@include centerBox(space-between, flex-start);
+			h2 {
+				width: 100%;
+			}
+			.textCont {
+				max-width: 888px;
+				width: 100%;
+			}
+			.imgCont {
+				img {
+					width: 100%;
+					max-width: 364px;
+					height: auto;
+				}
+			}
+		}
+		.divSix {
+			@include centerBox(space-between, flex-start);
+			h2 {
+				width: 100%;
+				text-align: right;
+			}
+
+			.imgCont {
+				img {
+					width: 100%;
+					max-width: 185px;
+					height: auto;
+				}
+			}
+			.textCont {
+				padding-top: 20px;
+				max-width: 894px;
+				width: 100%;
+			}
+		}
+	}
+	.postDrop {
+		h2 {
+			margin-bottom: 42px;
+		}
+		.pdCont {
+			p {
+				margin-bottom: 42px;
+			}
+		}
+	}
+}

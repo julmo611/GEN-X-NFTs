@@ -1,0 +1,34 @@
+.wntt {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+	text-align: center;
+
+	.ringImage {
+		max-width: 565px;
+		width: 100%;
+		height: auto;
+		margin: 200px auto 58px;
+	}
+	h2 {
+		max-width: 788px;
+		margin: 0 auto 33px;
+		text-align: center;
+	}
+	.wnttCont {
+		max-width: 792px;
+		width: 100%;
+		height: auto;
+		margin: 0 auto;
+		text-align: center;
+		p {
+			margin-bottom: 42px;
+		}
+	}
+	.yearBook {
+		width: 100%;
+		max-width: 996px;
+		margin: 120px auto 0;
+		@extend %shadow;
+	}
+}

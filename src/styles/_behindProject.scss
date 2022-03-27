@@ -1,0 +1,37 @@
+.behindProject {
+	width: 100%;
+	max-width: 1223px;
+	text-align: left;
+	margin: 0 auto;
+	position: relative;
+	h2 {
+		margin-bottom: 82px;
+	}
+	.bpContainer {
+		width: 100%;
+		width: 100%;
+		position: relative;
+		p {
+			max-width: 1098px;
+			margin-bottom: 36px;
+		}
+		img {
+			position: absolute;
+			right: 0;
+			bottom: 30px;
+			left: auto;
+			width: 85px;
+			height: auto;
+		}
+	}
+	.wowImg {
+		width: 100%;
+		text-align: right;
+		margin-top: -45px;
+		img {
+			width: 100%;
+			max-width: 273px;
+			height: auto;
+		}
+	}
+}

@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* Set core body defaults */
+body {
+	text-rendering: optimizeSpeed;
+	font-family: $fontFamily !important;
+	background-image: url('../assets/backg.jpg');
+	background-repeat: repeat;
+	opacity: 0.92;
+	color: white;
+	.App {
+		background: linear-gradient(172.1deg, #8a4ebb 0%, #27ca93 100%);
+		background-blend-mode: color-burn, normal;
+		width: 100%;
+		.contentWrap {
+			width: 100%;
+			max-width: 1440px;
+			margin: 0 auto;
+			padding: 10px;
+		}
+	}
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+p {
+	font-size: 32px;
+	font-weight: 400;
+}
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: white;
+}
+
+.appContainer {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+}

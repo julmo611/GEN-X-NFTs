@@ -1,0 +1,21 @@
+.helloSection {
+	max-width: 1200px;
+	width: 100%;
+	margin: 250px auto 0;
+	text-align: center;
+	h2 {
+		margin-bottom: 78px;
+	}
+	.teamSection {
+		width: 100%;
+		margin: 158px auto;
+		@include centerBox(space-between, flex-start);
+		.teamBox {
+			width: 282px;
+			font-size: 32px;
+			strong {
+				font-size: 30px;
+			}
+		}
+	}
+}

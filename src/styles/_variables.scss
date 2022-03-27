@@ -1,0 +1,12 @@
+// All varibales like buttons
+
+//Focus input
+:focus-visible {
+	outline: -webkit-focus-ring-color auto 0px;
+}
+
+h2 {
+	font-family: $titleFont;
+	font-weight: 400;
+	font-size: 64px;
+}
