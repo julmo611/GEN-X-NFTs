@@ -4,7 +4,7 @@
 	max-width: 1200px;
 	text-align: right;
 	position: relative;
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		margin: 100px auto;
 	}
 	h2 {
@@ -19,7 +19,7 @@
 		max-width: 181px;
 		height: auto;
 		display: flex;
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			margin: 0 auto;
 		}
 	}
@@ -31,7 +31,7 @@
 		img {
 			margin-bottom: 20px;
 		}
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			display: none;
 		}
 	}

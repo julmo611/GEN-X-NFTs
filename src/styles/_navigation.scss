@@ -3,7 +3,7 @@
 	@include centerBox(space-between, center);
 	max-width: 1200px;
 	margin: 80px auto 0;
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		margin-top: 20px;
 	}
 	.linksNav {
@@ -12,7 +12,7 @@
 			display: flex;
 			padding: 15px;
 			font-size: 26px;
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				font-size: 20px;
 				padding: 10px;
 			}
@@ -26,7 +26,7 @@
 	}
 	.socialLinks {
 		@include centerBox();
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			margin: 0 auto;
 		}
 		a {

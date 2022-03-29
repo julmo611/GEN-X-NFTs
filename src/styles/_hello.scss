@@ -3,7 +3,7 @@
 	width: 100%;
 	margin: 250px auto 0;
 	text-align: center;
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		margin: 50px auto 0;
 	}
 	h2 {
@@ -21,7 +21,7 @@
 				font-size: 32px;
 				margin-bottom: 50px;
 
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					margin: 20px auto;
 				}
 				strong {
@@ -36,7 +36,7 @@
 				@extend %shadow;
 				border-radius: 50%;
 			}
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				margin: 20px auto;
 			}
 			strong {

@@ -6,7 +6,7 @@
 	position: relative;
 	.yesNo {
 		position: relative;
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			text-align: center;
 		}
 		.nft8 {
@@ -16,7 +16,7 @@
 			top: -30%;
 			width: 696px;
 			height: auto;
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				display: none;
 			}
 		}
@@ -24,7 +24,7 @@
 			position: relative;
 			width: 282px;
 			height: auto;
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				width: 150px;
 				margin-bottom: 20px;
 			}
@@ -48,7 +48,7 @@
 			left: auto;
 			width: 85px;
 			height: auto;
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				display: none;
 			}
 		}

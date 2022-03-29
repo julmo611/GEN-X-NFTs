@@ -3,7 +3,7 @@
 	width: 100%;
 	max-width: 1200px;
 	position: relative;
-	@media (max-width: 600px) {
+	@media (max-width: 768px) {
 		margin: 50px auto 0;
 	}
 	.arcadeIcon {
@@ -12,7 +12,7 @@
 		left: -20%;
 		right: auto;
 		z-index: 1;
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			display: none;
 		}
 	}
@@ -31,7 +31,7 @@
 		backdrop-filter: blur(40px);
 		/* Note: backdrop-filter has minimal browser support */
 
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			margin-bottom: 50px;
 		}
 
@@ -43,12 +43,12 @@
 		width: 100%;
 		.divOne {
 			@include centerBox(space-between, flex-start);
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				margin-bottom: 50px;
 			}
 			h2 {
 				width: 100%;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					text-align: center;
 				}
 			}
@@ -56,12 +56,12 @@
 				max-width: 351px;
 				width: 100%;
 				padding-top: 40px;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					max-width: 600px;
 				}
 			}
 			.imgCont {
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					display: none;
 				}
 				img {
@@ -72,18 +72,18 @@
 		}
 		.divTwo {
 			@include centerBox(space-between, flex-start);
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				margin-bottom: 50px;
 			}
 			h2 {
 				width: 100%;
 				text-align: right;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					text-align: center;
 				}
 			}
 			.imgCont {
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					display: none;
 				}
 				img {
@@ -100,12 +100,12 @@
 		}
 		.divThree {
 			@include centerBox(space-between, flex-start);
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				margin-bottom: 50px;
 			}
 			h2 {
 				width: 100%;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					text-align: center;
 				}
 			}
@@ -115,7 +115,7 @@
 			}
 			.imgCont {
 				padding-top: 50px;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					display: none;
 				}
 				img {
@@ -127,19 +127,19 @@
 		}
 		.divFour {
 			@include centerBox(space-between, flex-start);
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				margin-bottom: 50px;
 			}
 			h2 {
 				width: 100%;
 				text-align: right;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					text-align: center;
 				}
 			}
 			.imgCont {
 				padding-top: 70px;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					display: none;
 				}
 				img {
@@ -156,12 +156,12 @@
 		}
 		.divFive {
 			@include centerBox(space-between, flex-start);
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				margin-bottom: 50px;
 			}
 			h2 {
 				width: 100%;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					text-align: center;
 				}
 			}
@@ -170,7 +170,7 @@
 				width: 100%;
 			}
 			.imgCont {
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					display: none;
 				}
 				img {
@@ -182,19 +182,19 @@
 		}
 		.divSix {
 			@include centerBox(space-between, flex-start);
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				margin-bottom: 50px;
 			}
 			h2 {
 				width: 100%;
 				text-align: right;
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					text-align: center;
 				}
 			}
 
 			.imgCont {
-				@media (max-width: 600px) {
+				@media (max-width: 768px) {
 					display: none;
 				}
 				img {
@@ -213,7 +213,7 @@
 	.postDrop {
 		h2 {
 			margin-bottom: 42px;
-			@media (max-width: 600px) {
+			@media (max-width: 768px) {
 				text-align: center;
 			}
 		}
@@ -225,7 +225,7 @@
 	}
 	.ghostMobile {
 		display: none;
-		@media (max-width: 600px) {
+		@media (max-width: 768px) {
 			display: block;
 			max-width: 60px;
 			margin: 20px auto 0;
