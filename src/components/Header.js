@@ -4,11 +4,21 @@ import cassette from '../assets/cassette.png';
 import nftOne from '../assets/nft1.png';
 import nftTwo from '../assets/nft2.png';
 import stereo from '../assets/90sStereo.png';
+import yearbookIcon from '../assets/yearbook-icon.png';
 
 export default function Header() {
 	return (
 		<div className="header" id="start">
 			<img src={headerImg} alt="Gen X NFT COllection" className="headerImg" />
+			<a
+				href="https://forms.gle/YjrkKMRmg1FZXtZ96"
+				target="_blank"
+				rel="noopener noreferrer"
+				className="yearbookList"
+			>
+				{' '}
+				<img src={yearbookIcon} alt="Yearbook" />{' '}
+			</a>
 			<div className="headerContainer">
 				<div className="imgBox">
 					<img src={cassette} alt="Cassette" className="cassette" />

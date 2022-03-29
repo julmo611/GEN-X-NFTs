@@ -1,5 +1,5 @@
 .header {
-	margin: 230px auto 100px;
+	margin: 20px auto 100px;
 	width: 100%;
 	text-align: center;
 	.headerImg {
@@ -7,9 +7,19 @@
 		max-width: 1223px;
 		margin: 0 auto;
 	}
+	.yearbookList {
+		text-align: center;
+		display: block;
+		margin: 0 auto;
+		img {
+			max-width: 400px;
+			width: 100%;
+			height: auto;
+		}
+	}
 	.headerContainer {
 		@include centerBox();
-		margin-top: 294px;
+		margin-top: 100px;
 		.imgBox {
 			width: 100%;
 			max-width: 288px;
