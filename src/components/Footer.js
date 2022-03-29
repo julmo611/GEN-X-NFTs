@@ -9,23 +9,43 @@ export default function Footer() {
 	return (
 		<footer>
 			<div className="fSocialMedia">
-				<a href="http://" target="_blank" rel="noopener noreferrer">
-					<img src={facebook} alt="Social Media" />
-				</a>
-				<a href="http://" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://twitter.com/GENxNFTs"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img src={twitter} alt="Social Media" />
 				</a>
-				<a href="http://" target="_blank" rel="noopener noreferrer">
-					<img src={instagram} alt="Social Media" />
-				</a>
-				<a href="http://" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://discord.com/invite/UeZHygwtdt"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img src={discord} alt="Social Media" />
 				</a>
-				<a href="http://" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://www.tiktok.com/@genxnfts"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img src={tiktok} alt="Social Media" />
 				</a>
+				<a
+					href="https://www.instagram.com/genxnfts"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src={instagram} alt="Social Media" />
+				</a>
+				<a
+					href="https://www.facebook.com/groups/genxnfts"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src={facebook} alt="Social Media" />
+				</a>
 			</div>
-			<h5>The Latchkey Kids 2022.</h5>
+			<h5>Copyright © 2022 The Dream Factory, LLC. All Rights Reserved.</h5>
 		</footer>
 	);
 }

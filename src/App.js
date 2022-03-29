@@ -11,17 +11,19 @@ import WhatMakeSpecial from './components/WhatMakeSpecial';
 function App() {
 	return (
 		<div className="App overlayImage">
-			<div className="contentWrap">
-				<Navigation />
-				<Header />
-				<BehindProject />
-				<RoadMap />
-				<WeNeedToTalk />
-				<TheKey />
-				<WhatMakeSpecial />
-				<Hello />
+			<div className="specaialBackg">
+				<div className="contentWrap">
+					<Navigation />
+					<Header />
+					<BehindProject />
+					<RoadMap />
+					<WeNeedToTalk />
+					<TheKey />
+					<WhatMakeSpecial />
+					<Hello />
+				</div>
+				<Footer />
 			</div>
-			<Footer />
 		</div>
 	);
 }

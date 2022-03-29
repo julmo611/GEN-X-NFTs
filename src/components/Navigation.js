@@ -12,25 +12,45 @@ export default function Navigation() {
 				<a href="#start">Start here</a>
 				<a href="#story">Story</a>
 				<a href="#roadmap">Roadmap</a>
-				<a href="#vip">VIP list</a>
+				{/* <a href="#vip">VIP list</a> */}
 				<a href="#team">Team</a>
-				<a href="#faq">FAQ</a>
+				{/* <a href="#faq">FAQ</a> */}
 			</div>
 			<div className="socialLinks">
-				<a href="http://" target="_blank" rel="noopener noreferrer">
-					<img src={facebook} alt="Social Media" />
-				</a>
-				<a href="http://" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://twitter.com/GENxNFTs"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img src={twitter} alt="Social Media" />
 				</a>
-				<a href="http://" target="_blank" rel="noopener noreferrer">
-					<img src={instagram} alt="Social Media" />
-				</a>
-				<a href="http://" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://discord.com/invite/UeZHygwtdt"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img src={discord} alt="Social Media" />
 				</a>
-				<a href="http://" target="_blank" rel="noopener noreferrer">
+				<a
+					href="https://www.tiktok.com/@genxnfts"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<img src={tiktok} alt="Social Media" />
+				</a>
+				<a
+					href="https://www.instagram.com/genxnfts"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src={instagram} alt="Social Media" />
+				</a>
+				<a
+					href="https://www.facebook.com/groups/genxnfts"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src={facebook} alt="Social Media" />
 				</a>
 			</div>
 		</div>
