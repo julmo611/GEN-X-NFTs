@@ -3,6 +3,7 @@ import nftThree from '../assets/nft3.png';
 import nftFour from '../assets/nft4.png';
 import nftFive from '../assets/nft5.png';
 import nftSix from '../assets/nft6.png';
+import nftSeven from '../assets/nft7.png';
 
 export default function Hello() {
 	return (
@@ -20,15 +21,18 @@ export default function Hello() {
 				nothing to hide!{' '}
 			</p>
 			<div className="teamSection">
-				<div className="teamBox">
-					<img src={nftThree} alt="Latchkey Kids Team" />
-					<p>
-						<strong>Sarah M. est 1977.</strong>
-						<br />
-						Mom / Woman / Dog Person / Currently living in Hawaii after a decade
-						in CA / Writer by day / Creator + Founder of GENXNFTs at every other
-						moment I am not momming, sleeping or working. Twitter: @GENXNFTS
-					</p>
+				<div className="teamBoxTop">
+					<div className="teamBox">
+						<img src={nftThree} alt="Latchkey Kids Team" />
+						<p>
+							<strong>Sarah M. est 1977.</strong>
+							<br />
+							Mom / Woman / Dog Person / Currently living in Hawaii after a
+							decade in CA / Writer by day / Creator + Founder of GENXNFTs at
+							every other moment I am not momming, sleeping or working. Twitter:
+							@GENXNFTS
+						</p>
+					</div>
 				</div>
 				<div className="teamBox">
 					<img src={nftFour} alt="Latchkey Kids Team" />
@@ -53,6 +57,14 @@ export default function Hello() {
 						<strong>Micki B. est 1975.</strong>
 						<br />
 						Mom / Woman / New Yorker / Marketing Guru + Advisor to GENXNFTS
+					</p>
+				</div>
+				<div className="teamBox">
+					<img src={nftSeven} alt="Latchkey Kids Team" />
+					<p>
+						<strong>J.C. est. 1974.</strong>
+						<br />
+						Cool Dad/ PR Guru
 					</p>
 				</div>
 			</div>

@@ -1,10 +1,16 @@
 import React from 'react';
 import triangle from '../assets/pyramid.png';
 import wow from '../assets/wow-img.png';
+import yesNo from '../assets/yesNo-game.png';
+import nft8 from '../assets/nft8.png';
 
 export default function BehindProject() {
 	return (
 		<div className="behindProject">
+			<div className="yesNo">
+				<img src={yesNo} alt="90s game" />
+				<img src={nft8} alt="NFT" className="nft8" />
+			</div>
 			<h2>Behind the project</h2>
 			<div className="bpContainer">
 				<p>

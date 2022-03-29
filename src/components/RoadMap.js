@@ -5,10 +5,12 @@ import redGhost from '../assets/ghost-red-dots.png';
 import orangeGhost from '../assets/ghost-orange-dots.png';
 import cherries from '../assets/cherries-dots.png';
 import pacMan from '../assets/pac-man-dots.png';
+import arcade from '../assets/arcade.png';
 
 export default function RoadMap() {
 	return (
 		<div className="roadMap" id="roadmap">
+			<img src={arcade} alt="Arcade" className="arcadeIcon" />
 			<div className="boxTitle">
 				<h2>The Roadmap</h2>
 				<p>
@@ -45,6 +47,8 @@ export default function RoadMap() {
 						<p>
 							25% OF COLLECTION MINTED (SOLD)PICTURE DAY! The Team will send a
 							CUSTOM NFT PRINT to 25 randomly Selected Latchkey Kids holders.
+							<br />
+							All Access Mint Sale Begins!
 						</p>
 					</div>
 					<div className="imgCont">

@@ -45,6 +45,15 @@ export default function Footer() {
 					<img src={facebook} alt="Social Media" />
 				</a>
 			</div>
+			<h5>
+				<a
+					href="https://webdesignpilot.com"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Designed by Web Design Pilot
+				</a>
+			</h5>
 			<h5>Copyright © 2022 The Dream Factory, LLC. All Rights Reserved.</h5>
 		</footer>
 	);

@@ -1,10 +1,12 @@
 import React from 'react';
 import roller from '../assets/skate-roller.png';
 import pizza from '../assets/pizza.png';
+import key from '../assets/key.png';
 
 export default function TheKey() {
 	return (
 		<div className="keySection">
+			<img src={key} alt="Key icon" />
 			<h2>The key</h2>
 			<p>
 				This is the hallmark identifying factor of every Latchkey Key. It

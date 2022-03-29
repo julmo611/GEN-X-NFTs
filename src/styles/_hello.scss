@@ -10,9 +10,29 @@
 		width: 100%;
 		margin: 158px auto;
 		@include centerBox(space-between, flex-start);
+		.teamBoxTop {
+			width: 100%;
+			text-align: center;
+			.teamBox {
+				width: 100%;
+				font-size: 32px;
+				margin-bottom: 50px;
+
+				@media (max-width: 600px) {
+					margin: 20px auto;
+				}
+				strong {
+					font-size: 30px;
+				}
+			}
+		}
 		.teamBox {
 			width: 282px;
 			font-size: 32px;
+			img {
+				@extend %shadow;
+				border-radius: 50%;
+			}
 			@media (max-width: 600px) {
 				margin: 20px auto;
 			}
