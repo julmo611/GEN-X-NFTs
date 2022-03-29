@@ -36,7 +36,8 @@ body {
 	background-position-y: -70px;
 	overflow: hidden;
 	@media (max-width: 768px) {
-		background-image: url('');
+		background-image: url('../assets/bckgObjects.svg');
+		background-size: 100%;
 	}
 }
 
