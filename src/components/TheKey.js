@@ -6,7 +6,7 @@ import key from '../assets/key.png';
 export default function TheKey() {
 	return (
 		<div className="keySection">
-			<img src={key} alt="Key icon" />
+			<img src={key} alt="Key icon" className="keyIcon" />
 			<h2>The key</h2>
 			<p>
 				This is the hallmark identifying factor of every Latchkey Key. It

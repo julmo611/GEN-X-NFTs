@@ -5,6 +5,12 @@ import redGhost from '../assets/ghost-red-dots.png';
 import orangeGhost from '../assets/ghost-orange-dots.png';
 import cherries from '../assets/cherries-dots.png';
 import pacMan from '../assets/pac-man-dots.png';
+import green from '../assets/ghost-green.png';
+import blue from '../assets/ghost-blue.png';
+import red from '../assets/ghost-red.png';
+import orange from '../assets/ghost-orange.png';
+import cherriesM from '../assets/cherries.png';
+import pacManM from '../assets/pac-man.png';
 import arcade from '../assets/arcade.png';
 
 export default function RoadMap() {
@@ -28,6 +34,7 @@ export default function RoadMap() {
 					<div className="imgCont">
 						<img src={greenGhost} alt="pac-man ghost" />
 					</div>
+					<img src={green} alt="pac-man ghost" className="ghostMobile" />
 				</div>
 				<div className="divTwo">
 					<h2>PRE-SALE - DATE TBD</h2>
@@ -40,6 +47,7 @@ export default function RoadMap() {
 							Latchkey Kids NFTs at the lowest cost.
 						</p>
 					</div>
+					<img src={blue} alt="pac-man ghost" className="ghostMobile" />
 				</div>
 				<div className="divThree">
 					<h2>PUBLIC SALE - DATE TBD</h2>
@@ -54,6 +62,7 @@ export default function RoadMap() {
 					<div className="imgCont">
 						<img src={redGhost} alt="pac-man ghost" />
 					</div>
+					<img src={red} alt="pac-man ghost" className="ghostMobile" />
 				</div>
 				<div className="divFour">
 					<h2>
@@ -72,6 +81,7 @@ export default function RoadMap() {
 							Kids holders.
 						</p>
 					</div>
+					<img src={orange} alt="pac-man ghost" className="ghostMobile" />
 				</div>
 				<div className="divFive">
 					<h2>
@@ -90,6 +100,7 @@ export default function RoadMap() {
 					<div className="imgCont">
 						<img src={cherries} alt="cherries" />
 					</div>
+					<img src={cherriesM} alt="cherries" className="ghostMobile" />
 				</div>
 				<div className="divSix">
 					<h2>
@@ -108,6 +119,7 @@ export default function RoadMap() {
 							Discord Community, will decide on who gets the moolah.
 						</p>
 					</div>
+					<img src={pacManM} alt="Pac-Man" className="ghostMobile" />
 				</div>
 				<div className="postDrop">
 					<h2>

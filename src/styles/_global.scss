@@ -14,6 +14,10 @@ body {
 	background-repeat: repeat;
 	opacity: 0.92;
 	color: white;
+	@media (max-width: 600px) {
+		background-image: url('');
+	}
+
 	.App {
 		background: linear-gradient(172.1deg, #8a4ebb 0%, #27ca93 100%);
 		background-blend-mode: color-burn, normal;
@@ -31,6 +35,9 @@ body {
 	background-position: top center;
 	background-position-y: -70px;
 	overflow: hidden;
+	@media (max-width: 600px) {
+		background-image: url('');
+	}
 }
 
 html {

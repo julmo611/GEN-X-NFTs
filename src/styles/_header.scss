@@ -20,11 +20,17 @@
 	.headerContainer {
 		@include centerBox();
 		margin-top: 100px;
+		@media (max-width: 600px) {
+			margin-top: 20px;
+		}
 		.imgBox {
 			width: 100%;
 			max-width: 288px;
 			@include centerBox();
 			flex-direction: column;
+			@media (max-width: 600px) {
+				display: none;
+			}
 			.cassette {
 				width: 100%;
 				max-width: 160px;
