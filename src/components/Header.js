@@ -10,15 +10,31 @@ export default function Header() {
 	return (
 		<div className="header" id="start">
 			<img src={headerImg} alt="Gen X NFT COllection" className="headerImg" />
-			<a
-				href="https://forms.gle/YjrkKMRmg1FZXtZ96"
-				target="_blank"
-				rel="noopener noreferrer"
-				className="yearbookList"
-			>
-				{' '}
-				<img src={yearbookIcon} alt="Yearbook" />{' '}
-			</a>
+			<div className="callToActions">
+				<a
+					href="https://docs.google.com/forms/d/e/1FAIpQLSfBiZKHLosrWMQL-tPemaXES9MSxCS9QhRXTVNydUbHMrxmcw/viewform"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="emailList"
+				>
+					<p>
+						Please click here to stay in the loop... and be entered to WIN your
+						own Latchkey Kid NFT!
+					</p>
+					<br />
+					<p>
+						<strong>Click here</strong>
+					</p>
+				</a>
+				<a
+					href="https://forms.gle/YjrkKMRmg1FZXtZ96"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="yearbookList"
+				>
+					<img src={yearbookIcon} alt="Yearbook" />{' '}
+				</a>
+			</div>
 			<div className="headerContainer">
 				<div className="imgBox">
 					<img src={cassette} alt="Cassette" className="cassette" />

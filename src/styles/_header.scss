@@ -10,14 +10,37 @@
 		max-width: 1223px;
 		margin: 0 auto;
 	}
-	.yearbookList {
-		text-align: center;
-		display: block;
+	.callToActions {
 		margin: 0 auto;
-		img {
-			max-width: 400px;
-			width: 100%;
-			height: auto;
+		max-width: 800px;
+		width: 100%;
+		@include centerBox(space-evenly, center);
+		.emailList {
+			width: 350px;
+			margin: 0 auto;
+
+			strong {
+				background: linear-gradient(
+					266.69deg,
+					rgba(255, 255, 255, 0.4) 2.73%,
+					rgba(255, 255, 255, 0) 97.27%
+				);
+				box-shadow: 0px 4px 24px -1px rgb(0 0 0 / 10%);
+				-webkit-backdrop-filter: blur(40px);
+				backdrop-filter: blur(40px);
+				padding: 10px 30px;
+				border-radius: 40px;
+			}
+		}
+		.yearbookList {
+			text-align: center;
+			display: block;
+			margin: 0 auto;
+			img {
+				max-width: 350px;
+				width: 100%;
+				height: auto;
+			}
 		}
 	}
 	.headerContainer {
