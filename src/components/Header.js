@@ -48,6 +48,7 @@ export default function Header() {
 					<img src={stereo} alt="Stereo" className="stereo" />
 				</div>
 			</div>
+			s
 		</div>
 	);
 }
