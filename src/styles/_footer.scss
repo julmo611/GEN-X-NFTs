@@ -1,6 +1,6 @@
 footer {
 	@include centerBox();
-	margin-top: 200px;
+	margin-top: 50px;
 	padding: 60px 20px 60px;
 	background: rgba(0, 0, 0, 0.2);
 	background-blend-mode: multiply;
@@ -10,11 +10,25 @@ footer {
 		margin-top: 0;
 	}
 	.fSocialMedia {
+		width: 100%;
 		@include centerBox();
 		img {
 			width: 60px;
 			height: auto;
 			margin: 17px;
+		}
+	}
+	.footerNavigation {
+		width: 100%;
+		max-width: 900px;
+		@include centerBox();
+		a {
+			font-size: 18px;
+			display: flex;
+			padding: 10px;
+			&:hover {
+				color: rgb(194, 194, 194);
+			}
 		}
 	}
 	h5 {

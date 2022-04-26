@@ -1,0 +1,44 @@
+.mediaI {
+	max-width: 900px;
+	width: 100%;
+	margin: 250px auto 100px;
+	@media (max-width: 600px) {
+		margin-top: 100px auto;
+	}
+	.mediaContent {
+		font-size: 24px;
+		a {
+			font-size: 24px;
+			color: $color3;
+			font-weight: bold;
+			cursor: pointer;
+		}
+	}
+	.mediaLinks {
+		margin: 50px auto;
+		width: 100%;
+		@include centerBox();
+		h3 {
+			width: 100%;
+			text-align: center;
+			font-size: 34px;
+			margin-bottom: 50px;
+		}
+		img {
+			max-width: 150px;
+			width: 100%;
+			height: auto;
+			margin: 15px;
+		}
+	}
+	.sarahImg {
+		margin: 50px auto;
+		width: 100%;
+		text-align: center;
+		img {
+			max-width: 350px;
+			width: 100%;
+			height: auto;
+		}
+	}
+}

@@ -1,30 +1,17 @@
-import BehindProject from './components/BehindProject';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Hello from './components/Hello';
-import Navigation from './components/Navigation';
-import RoadMap from './components/RoadMap';
-import TheKey from './components/TheKey';
-import WeNeedToTalk from './components/WeNeedToTalk';
-import WhatMakeSpecial from './components/WhatMakeSpecial';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home';
+import OficialRules from './Pages/OficialRules';
+import PrivacyPolicy from './Pages/PrivacyPolicy';
+import TermsAndConditions from './Pages/TermsAndConditions';
 
 function App() {
 	return (
-		<div className="App overlayImage">
-			<div className="specaialBackg">
-				<div className="contentWrap">
-					<Navigation />
-					<Header />
-					<BehindProject />
-					<RoadMap />
-					<WeNeedToTalk />
-					<TheKey />
-					<WhatMakeSpecial />
-					<Hello />
-				</div>
-				<Footer />
-			</div>
-		</div>
+		<Routes>
+			<Route path="/" element={<Home />} />
+			<Route path="/Privacy-Policy" element={<PrivacyPolicy />} />
+			<Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+			<Route path="/oficial-rules" element={<OficialRules />} />
+		</Routes>
 	);
 }
 

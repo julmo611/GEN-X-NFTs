@@ -1,6 +1,6 @@
 import React from 'react';
 import wntImage from '../assets/wntak.png';
-import yearBook from '../assets/yearbook.png';
+import yearBook from '../assets/yearBook.jpg';
 
 export default function WeNeedToTalk() {
 	return (

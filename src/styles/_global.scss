@@ -15,7 +15,7 @@ body {
 	opacity: 0.92;
 	color: white;
 	@media (max-width: 768px) {
-		background-image: url();
+		background-image: none;
 	}
 
 	.App {
@@ -46,10 +46,10 @@ html {
 }
 
 p {
-	font-size: 32px;
+	font-size: 22px;
 	font-weight: 400;
 	@media (max-width: 768px) {
-		font-size: 25px;
+		font-size: 18px;
 		text-align: center;
 	}
 }

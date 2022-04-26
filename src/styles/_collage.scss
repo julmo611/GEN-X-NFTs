@@ -1,0 +1,32 @@
+.collageSection {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 780px;
+	h2 {
+		font-size: 50px;
+	}
+	p {
+		margin-bottom: 20px;
+		strong {
+			text-decoration: underline;
+		}
+	}
+	.goatsSamples {
+		margin: 30px auto;
+		width: 100%;
+		@include centerBox();
+		img {
+			margin: 5px;
+			max-width: 150px;
+		}
+	}
+	.celebrity {
+		margin: 30px auto;
+		width: 100%;
+		@include centerBox();
+		img {
+			margin: 5px;
+			max-width: 150px;
+		}
+	}
+}
