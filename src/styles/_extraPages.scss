@@ -1,0 +1,44 @@
+.contentWrapEx {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 10px;
+	h1 {
+		margin-top: 150px;
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	.textWrap {
+		p,
+		li,
+		th,
+		td {
+			font-size: 20px;
+		}
+		h3 {
+			margin-top: 50px;
+		}
+		p {
+			margin-bottom: 20px;
+		}
+		ul {
+			margin-left: 40px;
+		}
+		hr {
+			margin: 100px auto;
+		}
+		table {
+			margin-bottom: 100px;
+			padding: 5px;
+			th,
+			td {
+				padding: 10px;
+				border: 1px white solid;
+			}
+			th {
+				font-weight: bold;
+			}
+		}
+	}
+}

@@ -6,7 +6,7 @@ import sarahImg from '../assets/Sarah-on-NBC.png';
 
 export default function Media() {
 	return (
-		<div className="mediaI">
+		<div className="mediaI" id="media">
 			<h2>MEDIA + INQUIRIES</h2>
 			<div className="mediaContent">
 				<p>
