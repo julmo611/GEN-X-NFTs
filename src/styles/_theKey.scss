@@ -1,9 +1,10 @@
 .keySection {
-	margin: 200px auto 300px;
+	margin: 70px auto 50px;
 	width: 100%;
 	max-width: 1200px;
 	text-align: right;
 	position: relative;
+	z-index: 6;
 	@media (max-width: 768px) {
 		margin: 100px auto;
 	}

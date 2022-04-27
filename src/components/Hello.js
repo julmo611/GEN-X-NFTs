@@ -65,7 +65,7 @@ export default function Hello() {
 					<p>
 						<strong>J.C. S. (est. 1974)</strong>
 						<br />
-						Cool Dad / PR Guru + Advisor to GEN-X NFTS
+						Cool Dad / PR Guru + Advisor to Gen-X NFTS
 					</p>
 				</div>
 				<div className="teamBox">
@@ -81,7 +81,7 @@ export default function Hello() {
 					<p>
 						<strong>Sarah A. (est. 1976) </strong>
 						<br />
-						Dog Mom/ Somatic Therapist / Mental Health Advisor to Gen-X NFTS
+						Dog Mom / Somatic Therapist / Mental Health Advisor to Gen-X NFTS
 						<br />
 						Instagram: @sarahthesomatictherapist
 					</p>

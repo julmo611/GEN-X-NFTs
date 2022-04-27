@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import Mailchimp from '../components/Mailchimp';
 
 export default function TermsAndConditions() {
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
+
 	return (
 		<div className="App overlayImage">
 			<Mailchimp />
@@ -14,7 +18,7 @@ export default function TermsAndConditions() {
 					<br />
 					TERMS AND CONDITIONS
 				</h1>
-				<div className="contentWrap">
+				<div className="textWrap">
 					<p>Last revised: April 25, 2022 </p>
 
 					<p>
@@ -933,7 +937,7 @@ export default function TermsAndConditions() {
 
 					<p>
 						<strong>
-							7.<u>Taxes:</u>
+							7. <u>Taxes:</u>
 						</strong>
 						<br />
 						Company is not responsible for determining the withholding, sales,

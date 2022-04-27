@@ -1,5 +1,5 @@
 .roadMap {
-	margin: 207px auto 0;
+	margin: 130px auto 0;
 	width: 100%;
 	max-width: 1200px;
 	position: relative;
@@ -8,10 +8,13 @@
 	}
 	.arcadeIcon {
 		position: absolute;
-		top: -7%;
-		left: -20%;
+		top: -3%;
+		left: -10%;
 		right: auto;
 		z-index: 1;
+		max-width: 350px;
+		width: 100%;
+		height: auto;
 		@media (max-width: 768px) {
 			display: none;
 		}
@@ -55,7 +58,7 @@
 				}
 			}
 			.textCont {
-				max-width: 650px;
+				max-width: 638px;
 				width: 100%;
 				padding-top: 40px;
 				p {

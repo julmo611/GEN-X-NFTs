@@ -57,7 +57,7 @@ export default function Footer() {
 			</div>
 			<div className="footerNavigation">
 				<Link to="/Privacy-Policy">Privacy Policy</Link>
-				<Link to="/oficial-rules">Oficial Rules</Link>
+				<Link to="/official-rules">Official Rules</Link>
 				<Link to="/terms-and-conditions">Terms and Conditions</Link>
 			</div>
 			<h5>

@@ -20,7 +20,7 @@ export default function RoadMap() {
 		<div className="roadMap" id="roadmap">
 			<img src={arcade} alt="Arcade" className="arcadeIcon" />
 			<div className="boxTitle">
-				<h2>The Roadmap</h2>
+				<h2>Roadmap</h2>
 				<p>
 					Gen-Xers hate rules and hand holding – we like to do stuff our own
 					way. Nonetheless, here’s a Roadmap (it’s like Mapquest – it tells you
@@ -32,9 +32,9 @@ export default function RoadMap() {
 					<h2>PRE-SALE - DATE TBD</h2>
 					<div className="textCont">
 						<p>
-							Early supporters on the Pre-Sale list get access to buy Latchkey
-							Kids NFTs at the lowest cost, BEFORE anyone else – using a Credit
-							Card or Crypto Wallet.
+							Early supporters on the Pre-Sale list get access to buy{' '}
+							<i>Latchkey Kids NFTs</i> at the lowest cost, BEFORE anyone else –
+							using a Credit Card or Crypto Wallet.
 						</p>
 						<p>
 							You can
@@ -72,19 +72,19 @@ export default function RoadMap() {
 					<h2>REVEAL / RARITY</h2>
 					<div className="textCont">
 						<p>
-							When you mint a Latchkey Kids NFT in the Pre-Sale or Public Sale,
-							yours will be randomly selected but we don’t reveal which one you
-							got right away. Shortly after the Public Sale, we’ll have a big
-							party online, when we’ll reveal the ACTUAL Latchkey Kids NFTs that
-							everyone got in the random mint – so you can admire the specific
-							attributes and traits that make your goat(s) special and
-							one-of-a-kind.
+							When you mint a <i>Latchkey Kids</i> NFT in the Pre-Sale or Public
+							Sale, yours will be randomly selected but we don’t reveal which
+							one you got right away. Shortly after the Public Sale, we’ll have
+							a big party online, when we’ll reveal the ACTUAL{' '}
+							<i>Latchkey Kids</i> NFTs that everyone got in the random mint –
+							so you can admire the specific attributes and traits that make
+							your goat(s) special and one-of-a-kind.
 						</p>
 						<p>
-							The rarity of the attributes and traits of the Latchkey Kids NFT
-							collection (e.g., what % out of all of the NFTs in the entire
-							collection have each individual asset / trait) will also be
-							revealed to the Community around that time.
+							The rarity of the attributes and traits of the{' '}
+							<i>Latchkey Kids</i> NFT collection (e.g., what % out of all of
+							the NFTs in the entire collection have each individual asset /
+							trait) will also be revealed to the Community around that time.
 						</p>
 					</div>
 					<div className="imgCont">
@@ -104,8 +104,8 @@ export default function RoadMap() {
 					<div className="textCont">
 						<p>
 							The GEN-X NFT Team will gift Custom NFT Prints or Digital Art
-							Frames at random to holders to display their Latchkey Kids IRL (in
-							real life) in their homes.
+							Frames at random to holders to display their <i>Latchkey Kids</i>{' '}
+							IRL (in real life) in their homes.
 						</p>
 					</div>
 					<img src={orange} alt="pac-man ghost" className="ghostMobile" />
@@ -124,7 +124,7 @@ export default function RoadMap() {
 							GEN-X NFT holders vote on their favorite Gen-X music for a DJ to
 							create Custom Digital MIX TAPES (that will be playable via a
 							device that plugs into a laptop or can be played on a smartphone)
-							to send to randomly selected Latchkey Kids NFT holders.
+							to send to randomly selected <i>Latchkey Kids</i> NFT holders.
 						</p>
 					</div>
 					<div className="imgCont">
@@ -145,8 +145,8 @@ export default function RoadMap() {
 						<p>
 							GEN-X NFT holders will vote on their class of NFTs for Best Hair,
 							Most Likely to Succeed, Class Clown, Biggest Flirt, etc., and
-							randomly selected Latchkey Kids NFT holders will receive a
-							LATCHKEY KIDS YEARBOOK in the mail.
+							randomly selected <i>Latchkey Kids</i> NFT holders will receive a
+							<i>LATCHKEY KIDS</i> YEARBOOK in the mail.
 						</p>
 						<div className="yearBookBox">
 							<img src={yearBook} alt="Art" className="yearBook" />
@@ -161,10 +161,10 @@ export default function RoadMap() {
 					</h2>
 					<div className="pdCont">
 						<p>
-							It’s time to PARTY! This will be a combo IRL/ONLINE event where
-							all Latchkey Kids NFT holders can come together and celebrate with
-							surprise guests! We will be gifting merch and swag all night –
-							including other rad NFTs from our private collection!
+							It’s time to PARTY! We intend to host an event where all{' '}
+							<i>Latchkey Kids</i> NFT holders can come together and celebrate
+							with surprise guests! We will be gifting merch and swag all night
+							– including other rad NFTs from our private collection!
 						</p>
 					</div>
 				</div>
@@ -187,7 +187,7 @@ export default function RoadMap() {
 						ROADMAP 2.0 LAUNCHES!
 					</h2>
 					<div className="pdCont">
-						<p>This includes:</p>
+						<p>We hope to deliver:</p>
 						<p>
 							<strong>POP UP EVENTS + METAVERSE HANGOUTS:</strong> Our goal is
 							to build a community hangout/event space both IRL (in real life)
@@ -207,9 +207,9 @@ export default function RoadMap() {
 						<p>
 							<strong>SATURDAY MORNING CARTOON:</strong> The Team begins
 							development on a Saturday Morning Cartoon based on certain
-							Latchkey Kids characters – where the holders of those character
-							NFTs get paid royalties (a share) from the money we get if we cast
-							your kid!
+							<i>Latchkey Kids</i> characters – where the holders of those
+							character NFTs get paid royalties (a share) from the money we get
+							if we cast your kid!
 						</p>
 						<p>
 							<strong>FUTURE GEN-X NFT COLLECTIONS:</strong> As a part of the

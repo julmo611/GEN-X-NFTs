@@ -30,7 +30,7 @@ export default function TheKey() {
 				– taking up space in the Metaverse.
 			</p>
 			<p>
-				Check out ROADMAP below to see some of the sweet perks of being a
+				Check out Roadmap below to see some of the sweet perks of being a{' '}
 				<i>Latchkey Kid</i> NFT holder.
 			</p>
 			{/* <div className="imgColumn">
