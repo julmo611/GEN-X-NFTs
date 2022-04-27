@@ -23,6 +23,9 @@
 			input {
 				font-size: 22px;
 				padding: 5px;
+				@media (max-width: 600px) {
+					margin-bottom: 10px;
+				}
 			}
 			button {
 				font-size: 22px;
@@ -32,9 +35,6 @@
 				background-color: transparent;
 				border: 1px solid $color3;
 				cursor: pointer;
-				@media (max-width: 600px) {
-					margin-bottom: 15px;
-				}
 				&:hover {
 					background-color: $color3;
 					padding: 7px 10px;
