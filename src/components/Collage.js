@@ -17,18 +17,17 @@ import m4 from '../assets/MALE-GOATS/13.png';
 import f4 from '../assets/FEMALE-GOATS/33.png';
 import m5 from '../assets/MALE-GOATS/28.png';
 import f5 from '../assets/FEMALE-GOATS/36.png';
-import m6 from '../assets/MALE-GOATS/31.png';
+// import m6 from '../assets/MALE-GOATS/31.png';
 import f6 from '../assets/FEMALE-GOATS/39.png';
 import m7 from '../assets/MALE-GOATS/66.png';
 import f7 from '../assets/FEMALE-GOATS/51.png';
-import m8 from '../assets/MALE-GOATS/66.png';
+import m8 from '../assets/MALE-GOATS/67.png';
 import f8 from '../assets/FEMALE-GOATS/63.png';
-import m9 from '../assets/MALE-GOATS/67.png';
+import m9 from '../assets/MALE-GOATS/75.png';
 import f9 from '../assets/FEMALE-GOATS/64.png';
-import m10 from '../assets/MALE-GOATS/75.png';
+import m10 from '../assets/MALE-GOATS/178.png';
 import f10 from '../assets/FEMALE-GOATS/65.png';
-import m11 from '../assets/MALE-GOATS/178.png';
-import m12 from '../assets/MALE-GOATS/338.png';
+import m11 from '../assets/MALE-GOATS/338.png';
 
 export default function Collage() {
 	return (
@@ -43,9 +42,9 @@ export default function Collage() {
 				<img src={f3} alt="GEN-X NFTS" />
 				<img src={m4} alt="GEN-X NFTS" />
 				<img src={f4} alt="GEN-X NFTS" />
-				<img src={m5} alt="GEN-X NFTS" />
 				<img src={f5} alt="GEN-X NFTS" />
-				<img src={m6} alt="GEN-X NFTS" />
+				<img src={m5} alt="GEN-X NFTS" />
+				{/* <img src={m6} alt="GEN-X NFTS" /> */}
 				<img src={f6} alt="GEN-X NFTS" />
 				<img src={m7} alt="GEN-X NFTS" />
 				<img src={f7} alt="GEN-X NFTS" />
@@ -56,7 +55,6 @@ export default function Collage() {
 				<img src={m10} alt="GEN-X NFTS" />
 				<img src={f10} alt="GEN-X NFTS" />
 				<img src={m11} alt="GEN-X NFTS" />
-				<img src={m12} alt="GEN-X NFTS" />
 			</div>
 			<p>
 				This is a generative 3,000 NFT collection, where each{' '}

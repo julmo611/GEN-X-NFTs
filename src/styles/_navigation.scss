@@ -32,6 +32,9 @@
 				background-color: transparent;
 				border: 1px solid $color3;
 				cursor: pointer;
+				@media (max-width: 600px) {
+					margin-bottom: 15px;
+				}
 				&:hover {
 					background-color: $color3;
 					padding: 7px 10px;
