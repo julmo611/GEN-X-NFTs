@@ -1436,7 +1436,7 @@ export default function TermsAndConditions() {
 					</p>
 
 					<p>
-						30-Day Right to Opt Out. You have the right to opt out of the
+						<i>30-Day Right to Opt Out.</i> You have the right to opt out of the
 						provisions of this Arbitration Agreement by sending written notice
 						of your decision to opt out to the following address: The Dream
 						Factory, LLC, 1209 Orange Street, Wilmington, DE 19801, Attention

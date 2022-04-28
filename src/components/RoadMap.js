@@ -145,7 +145,7 @@ export default function RoadMap() {
 						<p>
 							GEN-X NFT holders will vote on their class of NFTs for Best Hair,
 							Most Likely to Succeed, Class Clown, Biggest Flirt, etc., and
-							randomly selected <i>Latchkey Kids</i> NFT holders will receive a
+							randomly selected <i>Latchkey Kids</i> NFT holders will receive a{' '}
 							<i>LATCHKEY KIDS</i> YEARBOOK in the mail.
 						</p>
 						<div className="yearBookBox">
