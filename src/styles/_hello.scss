@@ -10,6 +10,7 @@
 		margin-bottom: 30px;
 	}
 	.teamSection {
+		max-width: 900px;
 		width: 100%;
 		margin: 0 auto 100px;
 		@include centerBox(space-between, flex-start);

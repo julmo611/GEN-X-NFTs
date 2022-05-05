@@ -1,6 +1,6 @@
 import React from 'react';
 import adila from '../assets/Adila-A.png';
-import jc from '../assets/J-C-S.png';
+// import jc from '../assets/J-C-S.png';
 import jesse from '../assets/Jesse-R.png';
 import jess from '../assets/Jess-Z.png';
 import micki from '../assets/Micki-B.png';
@@ -60,14 +60,14 @@ export default function Hello() {
 						Mom / New Yorker / Marketing Guru + Advisor to Gen-X NFTS
 					</p>
 				</div>
-				<div className="teamBox">
+				{/* <div className="teamBox">
 					<img src={jc} alt="Latchkey Kids Team" />
 					<p>
 						<strong>J.C. S. (est. 1974)</strong>
 						<br />
 						Cool Dad / PR Guru + Advisor to Gen-X NFTS
 					</p>
-				</div>
+				</div> */}
 				<div className="teamBox">
 					<img src={jess} alt="Latchkey Kids Team" />
 					<p>
