@@ -39,7 +39,7 @@ export default function Hello() {
 				<div className="teamBox">
 					<img src={adila} alt="Latchkey Kids Team" />
 					<p>
-						<strong>Adila A. (est. 1998)</strong>
+						<strong>Adila B. (est. 1998)</strong>
 						<br />
 						Honorary Gen-Xer / Artist of the Latchkey Kids collection
 					</p>
